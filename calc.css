@@ -1,0 +1,61 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    border:green
+}
+h1{
+    color:rgba(228, 64, 149, 0.724);
+    font-style:italic;
+}
+table{
+    background-color:rgb(255, 122, 166);
+    border-radius: 6px;
+    block-size: 6px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgreen;
+.calculator{
+    border-end-end-radius:1px ;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow:color-mix(in hsl shorter hue, color percentage, color percentage)
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(228, 64, 149, 0.724);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #3f0335;
+ }
+ button{
+    
+        width: 60px;
+        border: none;
+        height: 60px;
+        margin: 10px;
+        border-radius: 50%;
+        background-color: 0px 3px 15px rgba(64, 228, 91, 0.724);
+        font-size: 20px;
+        text-align: right;
+        color: #0a033f;
+     }
+ 
+ .equalBtn{
+    background-color: #fbf714;
+    box-shadow: inset 5px 5px 5px rgba(242, 156, 28, 0.715);
+ }
+.operator{
+    color:green;
+}
